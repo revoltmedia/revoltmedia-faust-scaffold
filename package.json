@@ -1,20 +1,32 @@
 {
   "dependencies": {
     "@apollo/client": "^3",
+    "@faustwp/blocks": "^2",
     "@faustwp/cli": "^1",
     "@faustwp/core": "^1",
+    "@wordpress/base-styles": "^4",
+    "@wordpress/block-library": "^8",
+    "classnames": "^2",
     "graphql": "^16",
     "next": "latest",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sass": "^1"
   },
   "devDependencies": {
+    "@faustwp/block-editor-utils": "^0",
     "@graphql-codegen/cli": "^3",
     "@graphql-codegen/client-preset": "^2",
     "@types/node": "^18",
     "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@wordpress/scripts": "^26",
     "concurrently": "^8",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=10"
   },
   "private": true,
   "scripts": {
