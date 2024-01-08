@@ -5,13 +5,13 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: ['16', '18' ]
+        node: ['18' ]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node }}
-      - run: npm install
+      - run: yarn
       - run: cp .env.local.sample .env.local
-      - run: npm run build
+      - run: yarn run build
         continue-on-error: FALSE
