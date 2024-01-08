@@ -9,20 +9,20 @@
     "watch-codegen": "graphql-codegen -w"
   },
   "dependencies": {
-    "@apollo/client": "^3.7.10",
-    "@faustwp/cli": "^1.0.0",
-    "@faustwp/core": "^1.0.0",
-    "graphql": "^16.6.0",
-    "next": "^13.2.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@apollo/client": "^3",
+    "@faustwp/cli": "^1",
+    "@faustwp/core": "^1",
+    "graphql": "^16",
+    "next": "latest",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^3.2.2",
-    "@graphql-codegen/client-preset": "^2.1.1",
-    "@types/node": "^18.16.1",
-    "@types/react": "^18.2.0",
-    "concurrently": "^8.0.1",
-    "typescript": "^5.0.2"
+    "@graphql-codegen/cli": "^3",
+    "@graphql-codegen/client-preset": "^2",
+    "@types/node": "^18",
+    "@types/react": "^18",
+    "concurrently": "^8",
+    "typescript": "^5"
   }
 }
