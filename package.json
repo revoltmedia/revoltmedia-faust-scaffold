@@ -1,13 +1,4 @@
 {
-  "private": true,
-  "scripts": {
-    "dev": "yarn run generate && concurrently \"faust dev\" \"yarn run watch-codegen\"",
-    "build": "faust build",
-    "generate": "faust generatePossibleTypes",
-    "start": "faust start",
-    "codegen": "graphql-codegen",
-    "watch-codegen": "graphql-codegen -w"
-  },
   "dependencies": {
     "@apollo/client": "^3",
     "@faustwp/cli": "^1",
@@ -24,5 +15,14 @@
     "@types/react": "^18",
     "concurrently": "^8",
     "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "build": "faust build",
+    "codegen": "graphql-codegen",
+    "dev": "yarn run generate && concurrently \"faust dev\" \"yarn run watch-codegen\"",
+    "generate": "faust generatePossibleTypes",
+    "start": "faust start",
+    "watch-codegen": "graphql-codegen -w"
   }
 }
